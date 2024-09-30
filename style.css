@@ -91,6 +91,10 @@ button{
     color: hsl(0, 0%, 100%);
     cursor: pointer;
 }
+button:hover{
+    background-color: #1a4031;
+    transition: 1s ease-in-out;
+}
 @media screen and (max-width: 600px){
     main{
         display: block;
@@ -120,17 +124,16 @@ button{
         padding-top: 20px;
     }
     button{
-        width: 220px;
-        padding-top: 0;
+        width: 280px;
+        text-align: center;
         display: flex;
         justify-content: center;
-        padding-right: 70px;
-        font-size: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-right: 80px;
     }
     button img{
         padding-top: 90px;
-        padding-left: 40px;
-        width: 15px;
-        height: 15px;
+        padding-left: 80px;
     }
 }
