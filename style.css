@@ -126,6 +126,7 @@ button{
         display: flex;
         justify-content: center;
         padding-right: 80px;
+        font-size: 10px;
     }
     button img{
         padding-top: 90px;
