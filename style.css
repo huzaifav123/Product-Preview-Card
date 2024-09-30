@@ -124,16 +124,17 @@ button:hover{
         padding-top: 20px;
     }
     button{
-        width: 280px;
-        text-align: center;
+        width: 220px;
+        padding-top: 0;
         display: flex;
         justify-content: center;
-        margin-left: auto;
-        margin-right: auto;
-        padding-right: 80px;
+        padding-right: 70px;
+        font-size: 10px;
     }
     button img{
         padding-top: 90px;
-        padding-left: 80px;
+        padding-left: 40px;
+        width: 15px;
+        height: 15px;
     }
 }
